@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.background-content{
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/36a4db5b-dec2-458a-a1c0-662fa60e7473/c1889f73-8a75-428c-818f-4fee204e5f43/ZA-en-20240820-TRIFECTA-perspective_WEB_9083f20f-fc4d-4424-8b92-eae18aa9ce8c_large.jpg);
+    height: 70vh;
+    border-bottom: 6px solid grey;
+}
+
+.overlay{
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+    padding: 22px 60px;
+}
+
+.logo{
+    width: 150px;
+}
+
+.nav > a{
+    color: white;
+    background-color: red;
+    border-radius: 6px;
+    padding: 6px 16px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav > a:hover{
+    background-color: rgb(208, 7, 7);
+}
+
+.middle-content{
+    display: flex;
+    align-items: center;
+    margin-top: 185px;
+    flex-direction: column;
+    color: white;
+}
+
+.middle-content > h1{
+    font-size: 45px;
+    font-weight: 900;
+}
+
+middle-content > p{
+    font-size: 25px;
+    margin: 18px 0;
+}
+
+middle-content > h3{
+    font-weight: 225;
+}
+
+.email-section{
+    margin: 8px 0 0 0;
+}
+
+.email-section > form{
+    width: 565px;
+    display: flex;
+    gap: 8px;
+}
+
+
+.email-section > form > input{
+    width: 350px;
+    height: 50px;
+    justify-content: center;
+    background-color: rgba(55, 55, 55, 0.2);
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.email-section > form > button{
+    width: 200px;
+    height: 52px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: red;
+    font-size: 25px;
+}
+
+.email-section > form > button:hover{
+    cursor: pointer;
+    background-color: rgb(157, 8, 8);
+}
+
+.info-section{
+    color: white;
+}
+
+.info-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    gap: 150px;
+    border-bottom: 6px solid grey;
+}
+
+.text-section{
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.footer-section{
+    color: grey;
+    height: 325px;
+}
+
+.footer-top a{
+    color: white;
+}
+
+.footer-links{
+    columns: 4;
+    margin: 0 5px 0 5px;
+}
+
+.footer-links > ul{
+    list-style: none;
+    text-decoration: underline;
+}
+
+.footer-links li:hover{
+    cursor: pointer;
+}
